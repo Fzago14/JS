@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
             var res = window.document.querySelector('div#res')
             var velo = Number(txtv.value)
             res.innerHTML = `<p>Sua velocidade atual é de <strong>${velo}Km/h</strong></p>`
-            if (velo > 60) {
+            if (velo >= 60) {
                 res.innerHTML += `Vai morrer!!!!`
             }
             res.innerHTML += `<p>Diriga com roupas pfv.</p>`
