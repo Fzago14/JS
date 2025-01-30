@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Partiu contar</h1>
+    </header>
+    <section>
+        <div id="conta">
+            <label for="idinicio">Início:</label>
+             <input type="number" name="inicio" id="idinicio"> <br>
+
+             <label for="ifim">Fim:</label>
+             <input type="number" name="fim" id="ifim"> <br>
+
+             <label for="ipasso">Passo:</label>
+             <input type="number" name="passo" id="ipasso"><br>
+
+             <input type="button" value="Contar" onclick="contar()">
+        </div>
+        <div id="res">
+            <p>Preparando a contagem...</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy Felipão</p>
+    </footer>
+    <script src="java-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(33, 99, 222, 0.871);
+    font: normal 15pt Arial;
+  }
+  
+  h1{
+      text-align: center;
+  }
+  
+  header {
+  color: white;
+  }
+  
+  section {
+  color: rgb(0, 0, 0);
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin: auto;
+  width: 400px;
+  height: auto;
+  box-shadow: 5px 3px 15px rgba(0, 0, 0, 0.351);
+  }
+  
+  footer {
+  color: white;
+  text-align: center;
+  }
+
+  input{
+    margin-top: 5px;
+    margin-bottom: 7px;
+  }
